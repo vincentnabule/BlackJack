@@ -1,0 +1,117 @@
+* {
+    list-style: none;
+    text-decoration: none !important;
+}
+
+body {
+    font-family: "Trebuchet MS", "Lucida Grande", sans-serif;
+    box-sizing: border-box;
+}
+
+.blackBG {
+    background-color: rgb(32, 30, 30);
+    color: white !important;
+}
+
+.btn_size {
+    width: 80px !important;
+    color: aliceblue !important;
+    font-weight: 600 !important;
+    font-size: large !important;
+}
+
+.cards {
+    --width: 90px;
+    --height: var(var(--width) * 1.5);
+    width: var(--width) !important;
+    height: var(--height) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    padding: 0.5px;
+}
+
+.cards img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.my_cards {
+    width: 90px;
+    height: 115px !important;
+    position: relative !important;
+}
+
+#cardFace,
+#cardBack {
+    position: absolute !important;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 578px) {
+    .cards {
+        --width: 100px;
+        --height: var(var(--width) * 1.5);
+        width: var(--width) !important;
+        height: var(--height) !important;
+    }
+
+    .my_cards {
+        width: 90px;
+        height: 140px;
+    }
+
+    .scores {
+        width: 75% !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cards {
+        --width: 120px;
+        --height: var(var(--width) * 1.5);
+        width: var(--width) !important;
+        height: var(--height) !important;
+    }
+
+    .my_cards {
+        width: 118px;
+        height: 155px !important;
+    }
+
+    .scores {
+        width: 50% !important;
+    }
+
+    table {
+        font-size: large !important;
+    }
+
+    .btn_size {
+        width: 100px !important;
+        font-weight: 700 !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .cards {
+        --width: 140px;
+        --height: var(var(--width) * 1.5);
+        width: var(--width) !important;
+        height: var(--height) !important;
+    }
+
+    .my_cards {
+        width: 130px;
+        height: 185px !important;
+    }
+
+    table {
+        font-size: larger !important;
+    }
+
+    .btn_size {
+        width: 120px !important;
+    }
+}

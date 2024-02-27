@@ -1,0 +1,170 @@
+.u_card_21,
+.u_card_31,
+.u_card_41,
+.u_card_51,
+.u_card_61 {
+    z-index: 500;
+}
+
+.u_card_22,
+.u_card_32,
+.u_card_42,
+.u_card_52,
+.u_card_62 {
+    z-index: 400;
+}
+
+.u_card_33,
+.u_card_43,
+.u_card_53,
+.u_card_63 {
+    z-index: 300;
+}
+
+.u_card_44,
+.u_card_54,
+.u_card_64 {
+    z-index: 200;
+}
+
+.u_card_55,
+.u_card_65 {
+    z-index: 100;
+}
+
+.u_card_21 {
+    margin-left: 40%;
+}
+
+.u_card_22 {
+    margin-left: -40%;
+}
+
+.u_card_31,
+.u_card_41 {
+    margin-left: 50%;
+}
+
+.u_card_32,
+.u_card_33 {
+    margin-left: -40%;
+}
+
+.u_card_42,
+.u_card_43,
+.u_card_44 {
+    margin-left: -43%;
+}
+
+.u_card_51,
+.u_card_61 {
+    margin-left: 70%;
+}
+
+.u_card_52,
+.u_card_53,
+.u_card_54,
+.u_card_55,
+.u_card_62,
+.u_card_63,
+.u_card_64,
+.u_card_65,
+.u_card_66 {
+    margin-left: -40%;
+}
+
+@media screen and (min-width: 400px) {
+
+    .u_card_22,
+    .u_card_32,
+    .u_card_33,
+    .u_card_42,
+    .u_card_43,
+    .u_card_44,
+    .u_card_52,
+    .u_card_53,
+    .u_card_54,
+    .u_card_55 {
+        margin-left: -35%;
+    }
+
+    .u_card_62,
+    .u_card_63,
+    .u_card_64,
+    .u_card_65,
+    .u_card_66 {
+        margin-left: -35%;
+    }
+}
+
+@media screen and (min-width: 568px) {
+    .u_card_22 {
+        margin-left: -50%;
+    }
+
+    .u_card_32,
+    .u_card_33,
+    .u_card_42,
+    .u_card_43,
+    .u_card_44 {
+        margin-left: -25%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .u_card_21 {
+        margin-left: 50%;
+    }
+
+    .u_card_22 {
+        margin-left: -64%;
+    }
+
+    .u_card_32,
+    .u_card_33 {
+        margin-left: -42%;
+    }
+
+    .u_card_42,
+    .u_card_43,
+    .u_card_44 {
+        margin-left: -32%;
+    }
+
+    .u_card_51,
+    .u_card_61 {
+        margin-left: 45%;
+    }
+
+    .u_card_52,
+    .u_card_53,
+    .u_card_54,
+    .u_card_55 {
+        margin-left: -26%;
+    }
+
+    .u_card_62,
+    .u_card_63,
+    .u_card_64,
+    .u_card_65,
+    .u_card_66 {
+        margin-left: -21%;
+    }
+
+    .d_card_22 {
+        margin-left: -70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .u_card_51,
+    .u_card_61 {
+        margin-left: 40%;
+    }
+
+    .u_card_42,
+    .u_card_43,
+    .u_card_44 {
+        margin-left: -32%;
+    }
+}

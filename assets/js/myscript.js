@@ -48,7 +48,7 @@ function drawCard() {
             firstDraw: 1,
         },
         success: function (response) {
-            doWhat(response);
+            setTimeout(doWhat(response), 2000);
         },
     });
 }
@@ -65,10 +65,10 @@ function drawExtra() {
             drawExtraCards: draw,
         },
         success: function (data) {
-            doWhat(data);
+            setTimeout(doWhat(data), 2000);
         },
     });
-    
+
 }
 
 //user standing
@@ -83,7 +83,7 @@ function showResults() {
 
     // dealer score < 17 must hit
     if (d_score <= 17) {
-        dealerDraw();
+        setTimeout(dealerDraw(), 2000);
     } else {
         revealScores(u_score, d_score);
     }
@@ -102,7 +102,7 @@ function dealerDraw() {
         },
         success: function (data) {
             doWhat(data);
-            showResults();
+            setTimeout(showResults(), 2000);
         },
     });
 }
@@ -170,7 +170,7 @@ function cardsLayout(user_pics, u_size, user_score, dealer_pics, d_size, dealer_
     htmldt += '</section>';
     htmldt += '<div class="json" hidden>' + data + "</div>";
 
-    cardsFadeIn(u_size);
+    setTimeout(cardsFadeIn(u_size), 2000);
     return htmldt;
 }
 
